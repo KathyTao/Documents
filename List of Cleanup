@@ -1,0 +1,20 @@
+List of Cleanup
+1. XIDisplayTest 
+   Improved harness: Added checking exported PDF file size by enabling column named "PDFFileSize" into csv
+   Adding PerfStats into harness to measure drawing time performance
+   Filtered projection test results and formed new cases for testing
+   
+2. CUIT tests
+Added Display and Export options tests
+
+   
+3. Test Result Browser
+A WPF application that build for viewing test image results against base images and updating results and parameters conveniently
+Since the original version of utility, I have added following features:
+- Comparing two runs 
+- Comparing single image files
+- Changing background color of git issues by checking issue status and opening issue on github 
+- Changing background color of image display pane
+- Opening copy of driver CSV file
+- Fallback image options
+
